@@ -6,5 +6,7 @@ The Python stanceEval.py file is designed to make predictions on test data using
 Here's how to use this script:
 
 1- Make sure you have installed the necessary libraries (torch, pandas, transformers).
+
 2- Make sure you have the model checkpoints (best-checkpoint_stance.pth, best-checkpoint-Sentiment.pth, best-checkpoint_Sarcasm.pth) as well as the test data file (PredictionStanceEval.csv) in the same directory as your script.
+
 3- Run the script. It will make predictions for each tweet in the test data using all three models. Predictions will be displayed for each tweet, showing the predicted position, sentiment and sarcasm.
